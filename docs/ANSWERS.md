@@ -74,7 +74,7 @@ python -m pytest
 
 ### Étape 4
 
-Afin de stocker les informations des 3 sources de données, j’opterais pour une solution relationnelle normalisée. Je ferais 8 tables différentes afin d’avoir une normalisation totale. Tout d’abord, les users peuvent avoir plusieurs styles musicaux favoris
+Afin de stocker les informations des 3 sources de données, j’opterais pour une solution relationnelle normalisée. Je ferais 8 tables différentes afin d’avoir une normalisation totale:
 
 ### Table: `users`
 Stocke les informations d’identité des utilisateurs.
