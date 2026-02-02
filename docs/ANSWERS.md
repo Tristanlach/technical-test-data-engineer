@@ -55,7 +55,7 @@ J’ai choisi de sauvegarder les données telles quelles en format .json localem
  - Transformer en DataFrames pandas pour la manipulation de données
  - Sauvegarder dans la base de données choisie
 
-Afin de réaliser cette tâche de façon automatisée quotidiennement, il faudrait mettre en place un scheduler qui pourrait déclencher l’exécution du pipeline à une fréquence définie (ex: cron job). On pourrait aussi utiliser une Azure Function entre autres.
+Afin de réaliser cette tâche de façon automatisée quotidiennement, il faudrait mettre en place un scheduler qui pourrait déclencher l’exécution du pipeline à une fréquence définie (ex: cron job). Un github workflow avec un .yaml pourrait permettre l'automatisation de l'exécution. On pourrait aussi utiliser une Azure Function si on choisit d'utiliser le Cloud.
 
 ### Étape 3 — Exécuter les test unitaires
 
